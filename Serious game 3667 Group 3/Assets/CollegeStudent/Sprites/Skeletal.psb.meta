@@ -90,7 +90,6 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 0, y: 0}
-    spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
   - name: arm front down
@@ -101,7 +100,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 229
-      y: 816
+      y: 811
       width: 78
       height: 155
     spriteID: 51950e95169027e46ba929e410aa5737
@@ -497,8 +496,7 @@ ScriptedImporter:
     - {x: 0, y: 24}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 229, y: 816}
-    spritePosition: {x: 358, y: 317}
+    uvTransform: {x: -129, y: 494}
   - name: arm front up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1013,8 +1011,7 @@ ScriptedImporter:
     - {x: 0, y: 24}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 416, y: 4}
-    spritePosition: {x: 391, y: 428}
+    uvTransform: {x: 25, y: -424}
   - name: hair side
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1440,8 +1437,7 @@ ScriptedImporter:
     - {x: 36, y: 13}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 328, y: 162}
-    spritePosition: {x: 462, y: 553}
+    uvTransform: {x: -134, y: -391}
   - name: hair front
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -1450,7 +1446,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 229
-      y: 652
+      y: 647
       width: 82
       height: 156
     spriteID: 93723167175f67d4681c908402e6132d
@@ -1865,8 +1861,7 @@ ScriptedImporter:
     - {x: 0, y: 33}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 229, y: 652}
-    spritePosition: {x: 536, y: 633}
+    uvTransform: {x: -307, y: 14}
   - name: head
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2236,8 +2231,7 @@ ScriptedImporter:
     - {x: 0, y: 29}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 397}
-    spritePosition: {x: 391, y: 592}
+    uvTransform: {x: -387, y: -195}
   - name: body
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -2674,8 +2668,7 @@ ScriptedImporter:
     - {x: 0, y: 30}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 389, y: 258}
+    uvTransform: {x: -385, y: -254}
   - name: leg front down
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3112,8 +3105,7 @@ ScriptedImporter:
     - {x: 26, y: 0}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 229, y: 245}
-    spritePosition: {x: 365, y: 0}
+    uvTransform: {x: -136, y: 245}
   - name: leg front up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -3570,8 +3562,7 @@ ScriptedImporter:
     - {x: 0, y: 26}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 117, y: 629}
-    spritePosition: {x: 396, y: 137}
+    uvTransform: {x: -279, y: 492}
   - name: leg back down
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4118,8 +4109,7 @@ ScriptedImporter:
     - {x: 48, y: 23}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 229, y: 447}
-    spritePosition: {x: 542, y: -5}
+    uvTransform: {x: -313, y: 447}
   - name: leg back up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -4645,8 +4635,7 @@ ScriptedImporter:
     - {x: 0, y: 25}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 229, y: 4}
-    spritePosition: {x: 510, y: 134}
+    uvTransform: {x: -281, y: -130}
   - name: arm back down
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -5081,8 +5070,7 @@ ScriptedImporter:
     - {x: 0, y: 24}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 328, y: 4}
-    spritePosition: {x: 550, y: 327}
+    uvTransform: {x: -222, y: -323}
   - name: arm back up
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -5597,8 +5585,7 @@ ScriptedImporter:
     - {x: 0, y: 24}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 117, y: 869}
-    spritePosition: {x: 517, y: 430}
+    uvTransform: {x: -400, y: 439}
   - name: pony tail
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -6398,8 +6385,7 @@ ScriptedImporter:
     - {x: 4, y: 71}
     tessellationDetail: 0
     parentGroupIndex: -1
-    uvTransform: {x: 4, y: 629}
-    spritePosition: {x: 342, y: 397}
+    uvTransform: {x: -338, y: 232}
   characterData:
     bones:
     - name: bone_1
@@ -6706,7 +6692,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 51950e95169027e46ba929e410aa5737
     layerID: 14
-    mosaicPosition: {x: 229, y: 816}
+    mosaicPosition: {x: 229, y: 811}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -6736,7 +6722,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 93723167175f67d4681c908402e6132d
     layerID: 11
-    mosaicPosition: {x: 229, y: 652}
+    mosaicPosition: {x: 229, y: 647}
     flatten: 0
     isImported: 1
     isVisible: 1
