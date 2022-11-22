@@ -7,6 +7,7 @@ public class virusScript : MonoBehaviour
     
     [SerializeField] Vector3 force; 
     [SerializeField] HPScoreScript Score;
+    [SerializeField] AudioSource audioPlayer;
 
     private Rigidbody2D rb; 
     private SpriteRenderer spriteRenderer; 
@@ -48,7 +49,8 @@ public class virusScript : MonoBehaviour
          
         if(collison.gameObject.tag == "Variant"){
             
-            Score.AddScore(10); 
+            Score.AddScore(10);
+            GameObject.Find("VirusSound").GetComponent<virusSound>().playAudio(); 
             Destroy(this.gameObject); 
             
         }

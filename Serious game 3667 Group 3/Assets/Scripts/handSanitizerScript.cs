@@ -6,6 +6,7 @@ public class handSanitizerScript : MonoBehaviour
 {
     // Start is called before the first frame update
     [SerializeField] InventoryScoreScript Score;
+    [SerializeField] AudioSource audioPlayer;
     void Start()
     {
         
@@ -21,6 +22,7 @@ public class handSanitizerScript : MonoBehaviour
             if(collison.gameObject.tag == "Variant"){
                 
                 Score.AddScore();
+                GameObject.Find("HandSanitizerSound").GetComponent<handSanitizerSound>().playAudio();
                 Destroy(this.gameObject); 
                 
             }
