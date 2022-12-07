@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -9,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
 
     Vector3 movement;
-    private float dirX = 2.5f;
+    private float dirX = 1f;
     private bool isJumping = false;
     private bool alive = true;
     private bool isKickboard = false;
@@ -45,6 +46,12 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         anim.SetBool("isJump", false);
+
+        if (other.gameObject.tag == "Door")
+        {
+            SceneManager.LoadScene("Level2");
+            Debug.Log("Next Level");
+        }
     }
 
     void Run()
@@ -57,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
             //dirX = -dirX;
             moveVelocity = Vector3.left;
 
-            transform.localScale = new Vector3(dirX * -1, 2.5f, 2.5f);
+            transform.localScale = new Vector3(dirX * -1, 1f, 1f);
             if(!anim.GetBool("isJump"))
             {
                 anim.SetBool("isRun", true);
@@ -68,7 +75,7 @@ public class PlayerMovement : MonoBehaviour
             
             moveVelocity = Vector3.right;
 
-            transform.localScale = new Vector3(dirX, 2.5f, 2.5f);
+            transform.localScale = new Vector3(dirX, 1f, 1f);
             if(!anim.GetBool("isJump"))
             {
                 anim.SetBool("isRun", true);
