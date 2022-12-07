@@ -34,10 +34,10 @@ public class PlayerMovement : MonoBehaviour
         //Restart();
         if(alive)
         {
-            Hurt();
-            Die();
+            //Hurt();
+            //Die();
             //Attack();
-            Jump();
+            //Jump();
             //KickBoard();
             Run();
         }
@@ -86,6 +86,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
+    /*
     void Jump()
     {
         if ((Input.GetButtonDown("Jump") || Input.GetAxisRaw("Vertical") > 0) && !anim.GetBool("isJump"))
@@ -114,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
     void Die()
     {
 
-    }
+    }*/
 
 
 

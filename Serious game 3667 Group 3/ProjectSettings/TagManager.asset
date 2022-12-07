@@ -5,7 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Variant
+<<<<<<< Updated upstream
   - Door
+=======
+  - Hand_Sanitizer
+  - Mask
+  - Toilet_Paper
+  - Water_Bottle
   layers:
   - Default
   - TransparentFX
