@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Variant
+  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Instruction
   - Water
   - UI
   - 
@@ -47,4 +48,7 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 660443791
+    locked: 0
+  - name: Instruction
+    uniqueID: 912318781
     locked: 0
