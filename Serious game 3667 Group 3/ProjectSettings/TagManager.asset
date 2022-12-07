@@ -12,6 +12,7 @@ TagManager:
   - Mask
   - Toilet_Paper
   - Water_Bottle
+>>>>>>> Stashed changes
   layers:
   - Default
   - TransparentFX
