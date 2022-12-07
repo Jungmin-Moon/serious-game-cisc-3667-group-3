@@ -4,17 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Hand_Sanitizer
-  - Mask
-  - Toilet_Paper
-  - Water_Bottle
   - Variant
-  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Instruction
   - Water
   - UI
   - 
@@ -45,8 +40,14 @@ TagManager:
   - 
   m_SortingLayers:
   - name: Background
-    uniqueID: 905336719
+    uniqueID: 3120325861
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 660443791
+    locked: 0
+  - name: Instruction
+    uniqueID: 912318781
     locked: 0

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -34,10 +33,10 @@ public class PlayerMovement : MonoBehaviour
         //Restart();
         if(alive)
         {
-            //Hurt();
-            //Die();
+            Hurt();
+            Die();
             //Attack();
-            //Jump();
+            Jump();
             //KickBoard();
             Run();
         }
@@ -46,12 +45,6 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         anim.SetBool("isJump", false);
-
-        if (other.gameObject.tag == "Door")
-        {
-            SceneManager.LoadScene("HighScores"); // After level 4 should be another scene (HighScores, etc.)
-            Debug.Log("Next Level");
-        }
     }
 
     void Run()
@@ -65,14 +58,7 @@ public class PlayerMovement : MonoBehaviour
             //dirX = -dirX;
             moveVelocity = Vector3.left;
 
-            if(SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 4)
-            {
-                transform.localScale = new Vector3(1 * -1, 1f, 1f);
-            } else
-            {
-                transform.localScale = new Vector3(dirX * -1, 2.5f, 2.5f);
-            }
-            
+            transform.localScale = new Vector3(dirX * -1, 2.5f, 2.5f);
             if(!anim.GetBool("isJump"))
             {
                 anim.SetBool("isRun", true);
@@ -82,15 +68,9 @@ public class PlayerMovement : MonoBehaviour
         {
             
             moveVelocity = Vector3.right;
-            if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 4)
-            {
-                transform.localScale = new Vector3(1, 1f, 1f);
-            }
-            else
-            {
-                transform.localScale = new Vector3(dirX, 2.5f, 2.5f);
-            }
-            if (!anim.GetBool("isJump"))
+
+            transform.localScale = new Vector3(dirX, 2.5f, 2.5f);
+            if(!anim.GetBool("isJump"))
             {
                 anim.SetBool("isRun", true);
             }
@@ -100,7 +80,6 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    /*
     void Jump()
     {
         if ((Input.GetButtonDown("Jump") || Input.GetAxisRaw("Vertical") > 0) && !anim.GetBool("isJump"))
@@ -129,7 +108,7 @@ public class PlayerMovement : MonoBehaviour
     void Die()
     {
 
-    }*/
+    }
 
 
 
