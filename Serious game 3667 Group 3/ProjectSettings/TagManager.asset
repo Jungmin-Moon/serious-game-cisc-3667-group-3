@@ -4,20 +4,17 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Variant
-<<<<<<< Updated upstream
-  - Door
-=======
   - Hand_Sanitizer
   - Mask
   - Toilet_Paper
   - Water_Bottle
->>>>>>> Stashed changes
+  - Variant
+  - Door
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Instruction
+  - 
   - Water
   - UI
   - 
@@ -48,14 +45,8 @@ TagManager:
   - 
   m_SortingLayers:
   - name: Background
-    uniqueID: 3120325861
+    uniqueID: 905336719
     locked: 0
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Foreground
-    uniqueID: 660443791
-    locked: 0
-  - name: Instruction
-    uniqueID: 912318781
     locked: 0

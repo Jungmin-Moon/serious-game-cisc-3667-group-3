@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
 
     Vector3 movement;
-    private float dirX = 1f;
+    private float dirX = 2.5f;
     private bool isJumping = false;
     private bool alive = true;
     private bool isKickboard = false;
@@ -64,7 +64,14 @@ public class PlayerMovement : MonoBehaviour
             //dirX = -dirX;
             moveVelocity = Vector3.left;
 
-            transform.localScale = new Vector3(dirX * -1, 1f, 1f);
+            if(SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 4)
+            {
+                transform.localScale = new Vector3(1 * -1, 1f, 1f);
+            } else
+            {
+                transform.localScale = new Vector3(dirX * -1, 2.5f, 2.5f);
+            }
+            
             if(!anim.GetBool("isJump"))
             {
                 anim.SetBool("isRun", true);
@@ -74,9 +81,15 @@ public class PlayerMovement : MonoBehaviour
         {
             
             moveVelocity = Vector3.right;
-
-            transform.localScale = new Vector3(dirX, 1f, 1f);
-            if(!anim.GetBool("isJump"))
+            if (SceneManager.GetActiveScene().buildIndex == 1 || SceneManager.GetActiveScene().buildIndex == 4)
+            {
+                transform.localScale = new Vector3(1, 1f, 1f);
+            }
+            else
+            {
+                transform.localScale = new Vector3(dirX, 2.5f, 2.5f);
+            }
+            if (!anim.GetBool("isJump"))
             {
                 anim.SetBool("isRun", true);
             }
