@@ -26,8 +26,5 @@ public class Mask_Information : MonoBehaviour
         Mask_Panel.SetActive(true);
     }
 
-    public void GoToNextLevel()
-    {
-        SceneManager.LoadScene(4);
-    }
+
 }
