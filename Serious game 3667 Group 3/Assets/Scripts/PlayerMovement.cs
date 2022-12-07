@@ -49,7 +49,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (other.gameObject.tag == "Door")
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("HighScores"); // After level 4 should be another scene (HighScores, etc.)
             Debug.Log("Next Level");
         }
     }
