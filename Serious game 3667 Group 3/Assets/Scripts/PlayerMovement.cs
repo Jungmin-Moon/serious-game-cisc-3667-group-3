@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 moveVelocity = Vector3.zero;
         anim.SetBool("isRun", false);
 
+        //If is because in level 1 and 4 its scaled to look better at a scale of 1 but every other level looks better in 2.5 scale.
         if(Input.GetAxisRaw("Horizontal") < -0.1f)
         {
             //dirX = -dirX;

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Mask_Information : MonoBehaviour
 {
@@ -23,5 +24,10 @@ public class Mask_Information : MonoBehaviour
     {
         Destroy(gameObject);
         Mask_Panel.SetActive(true);
+    }
+
+    public void GoToNextLevel()
+    {
+        SceneManager.LoadScene(4);
     }
 }
