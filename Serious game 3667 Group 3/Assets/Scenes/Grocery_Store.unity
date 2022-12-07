@@ -7724,8 +7724,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.6736, y: 52.7184}
-  m_SizeDelta: {x: 1077.133, y: 383.1297}
+  m_AnchoredPosition: {x: -0.1449, y: 44.3102}
+  m_SizeDelta: {x: 973.1769, y: 344.9106}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &182534379
 MonoBehaviour:
@@ -7760,7 +7760,15 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Water Bottles: '
+  m_Text: 'Water Bottles: This item alongside toilet paper is an oddity and is more
+    just people panicking a lot. In a lot of natural disaster situations having bottled
+    clean water on hand is very good but people took that to also mean that in a
+    case like a pandemic there might not be a gurantee of clean tap water. Even though
+    a pandemic would not actually affect tap at all. But the fear of the unknown
+    and knowledge of what supplies to hoard or keep on hand from other types of disasters
+    as well influence from social media or even friends and family make people much
+    more fearful and much more likely to hoard things they really don''t need to
+    hoard.'
 --- !u!222 &182534380
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7950,8 +7958,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.5511, y: 59.7156}
-  m_SizeDelta: {x: 1072.0206, y: 375.8853}
+  m_AnchoredPosition: {x: -0.0223, y: 51.3074}
+  m_SizeDelta: {x: 971.1221, y: 331.5509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &386223278
 MonoBehaviour:
@@ -7986,7 +7994,12 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Toilet Paper: '
+  m_Text: 'Toilet Paper: This item is very interesting in that it wasn''t recommended
+    by the CDC but it was a psychological effect of thousands of years of evolution
+    on humans. Everybody eats, sleeps, poops and knowing it is there is  comforting
+    to know. Alongside that as humans we like community and being seen as unclean
+    could be a huge detrimentl. And above all else there are no substitutes for toilet
+    paper compared to other items. '
 --- !u!222 &386223279
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8066,7 +8079,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Close window
 --- !u!222 &435061033
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8181,7 +8194,7 @@ RectTransform:
   m_GameObject: {fileID: 515282093}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 998675829}
@@ -8190,7 +8203,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -198}
+  m_AnchoredPosition: {x: 0, y: -175}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &515282095
@@ -8594,7 +8607,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Close window
 --- !u!222 &998675831
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8820,7 +8833,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Close window
 --- !u!222 &1099675677
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9064,7 +9077,7 @@ RectTransform:
   m_GameObject: {fileID: 1310775187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 435061031}
@@ -9073,7 +9086,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -198}
+  m_AnchoredPosition: {x: 0, y: -175}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1310775189
@@ -9325,7 +9338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Close window
 --- !u!222 &1348323617
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9362,7 +9375,7 @@ RectTransform:
   m_GameObject: {fileID: 1476576788}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1348323615}
@@ -9371,7 +9384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -198}
+  m_AnchoredPosition: {x: 0, y: -175}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1476576790
@@ -9496,7 +9509,7 @@ RectTransform:
   m_GameObject: {fileID: 1536124979}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1099675675}
@@ -9505,7 +9518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -198}
+  m_AnchoredPosition: {x: 0, y: -175}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1536124981
@@ -9637,8 +9650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.5511, y: 49.6384}
-  m_SizeDelta: {x: 1075.2073, y: 389.8781}
+  m_AnchoredPosition: {x: 0.0223, y: 43.5233}
+  m_SizeDelta: {x: 971.2512, y: 347.0726}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1547487979
 MonoBehaviour:
@@ -9673,7 +9686,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Mask Information: '
+  m_Text: 'Mask Information: Bought a lot alongside other items because Covid-19
+    was able to be passed via respiratory droplets when people cough, sneeze, sing
+    etc. Masks were and still are one of the best ways to prevent passing any germs
+    or viruses from respiratory droplets. '
 --- !u!222 &1547487980
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10077,8 +10093,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.5511, y: 55.8432}
-  m_SizeDelta: {x: 1075.2073, y: 374.3661}
+  m_AnchoredPosition: {x: -2.2709, y: 46.6706}
+  m_SizeDelta: {x: 960.5496, y: 337.6757}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2124044235
 MonoBehaviour:
@@ -10113,7 +10129,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Hand Sanitizer: \n"
+  m_Text: 'Hand Sanitizer: Should be mostly obvious but according to the CDC themselves,
+    cleaning hands with handsanitizer containing at least 60% alcohol is one of the
+    best things to keep germs at bay. So it isn''t surprising hand sanitizer was
+    bought a lot during the height of the pandemic. '
 --- !u!222 &2124044236
 CanvasRenderer:
   m_ObjectHideFlags: 0
