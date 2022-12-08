@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Grocery_Store.unity
     guid: 727851e96b2f5ed429cd24965605cca8
+  - enabled: 1
+    path: Assets/Scenes/Level4.unity
+    guid: 85bdb9d0051982947be40e16e57a27b4
   m_configObjects: {}
