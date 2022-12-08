@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -45,6 +46,12 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         anim.SetBool("isJump", false);
+
+        if (other.gameObject.tag == "Door")
+        {
+            SceneManager.LoadScene(2);
+            Debug.Log("Next Level");
+        }
     }
 
     void Run()
