@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -46,12 +45,6 @@ public class PlayerMovement : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         anim.SetBool("isJump", false);
-
-        if (other.gameObject.tag == "Door")
-        {
-            SceneManager.LoadScene(2);
-            Debug.Log("Next Level");
-        }
     }
 
     void Run()
@@ -59,7 +52,6 @@ public class PlayerMovement : MonoBehaviour
         Vector3 moveVelocity = Vector3.zero;
         anim.SetBool("isRun", false);
 
-        //If is because in level 1 and 4 its scaled to look better at a scale of 1 but every other level looks better in 2.5 scale.
         if(Input.GetAxisRaw("Horizontal") < -0.1f)
         {
             //dirX = -dirX;

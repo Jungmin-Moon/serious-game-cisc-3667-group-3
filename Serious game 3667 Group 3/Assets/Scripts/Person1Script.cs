@@ -5,8 +5,7 @@ using UnityEngine;
 public class Person1Script : MonoBehaviour
 {
     // Start is called before the first frame update
-    //[SerializeField] HPScoreScript Score;
-    [SerializeField] Level2PopOut PopOutWindow;
+    [SerializeField] HPScoreScript Score;
     void Start()
     {
         
@@ -20,10 +19,8 @@ public class Person1Script : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collison){
          
         if(collison.gameObject.tag == "Variant"){
-           
-            //Score.AddScore(20);
-            PopOutWindow.Pause(); 
             
+           Score.AddScore(20);
              
         }
     }

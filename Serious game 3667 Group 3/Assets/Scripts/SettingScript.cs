@@ -2,11 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-public class GoToNextLevel : MonoBehaviour
+public class SettingScript : MonoBehaviour
 {
-
-    /*
+    public GameObject optionsScreen;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,9 +15,15 @@ public class GoToNextLevel : MonoBehaviour
     void Update()
     {
         
-    } */
-    public void GoLevelFour()
+    }
+
+     public void OpenSettings()
     {
-        SceneManager.LoadScene(4);
+        optionsScreen.SetActive(true);
+    }
+
+    public void CloseSettings()
+    {
+        optionsScreen.SetActive(false);
     }
 }

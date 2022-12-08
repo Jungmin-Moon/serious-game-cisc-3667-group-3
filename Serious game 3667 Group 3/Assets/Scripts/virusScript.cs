@@ -5,8 +5,7 @@ using UnityEngine;
 public class virusScript : MonoBehaviour
 {
     
-    [SerializeField] Vector3 force;
-    [SerializeField] Level1PopOut isMask; 
+    [SerializeField] Vector3 force; 
     [SerializeField] HPScoreScript Score;
     [SerializeField] AudioSource audioPlayer;
 
