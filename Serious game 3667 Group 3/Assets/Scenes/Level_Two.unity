@@ -383,6 +383,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: {x: 0, y: 0, z: 0}
+  isMask: {fileID: 0}
   Score: {fileID: 1632411714}
   audioPlayer: {fileID: 889388459}
 --- !u!50 &362126595
@@ -945,8 +946,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 665309304}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.3, y: 8.9, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7.2999954, y: 8.9, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1841,6 +1842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: {x: 0, y: 0, z: 0}
+  isMask: {fileID: 0}
   Score: {fileID: 1632411714}
   audioPlayer: {fileID: 889388459}
 --- !u!50 &1408953935
@@ -1980,6 +1982,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: {x: 0, y: 0, z: 0}
+  isMask: {fileID: 0}
   Score: {fileID: 1632411714}
   audioPlayer: {fileID: 889388459}
 --- !u!50 &1521608747
@@ -43588,6 +43591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   force: {x: 0, y: 0, z: 0}
+  isMask: {fileID: 0}
   Score: {fileID: 1632411714}
   audioPlayer: {fileID: 889388459}
 --- !u!50 &2079655126

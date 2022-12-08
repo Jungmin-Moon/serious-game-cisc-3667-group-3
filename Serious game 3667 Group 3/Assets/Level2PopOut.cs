@@ -19,14 +19,23 @@ public class Level2PopOut : MonoBehaviour
         Time.timeScale = 0f; 
         GameIsPaused = true; 
     }
+    public void Resume(){
+        pauseMenuUI.SetActive(false); 
+        Time.timeScale = 1f; 
+        GameIsPaused = false; 
+    }
 
     public void YesButton(){
-        Debug.Log("YES BUTTON PRESSED");
+        Resume();
+        SceneManager.LoadScene("Grocery_Store");
+        //Debug.Log("YES BUTTON PRESSED");
 
     } 
 
     public void NoButton(){
-    Debug.Log("No BUTTON PRESSED");
+        Resume();
+        SceneManager.LoadScene("Grocery_Store");
+        //Debug.Log("No BUTTON PRESSED");
 
     } 
 }
