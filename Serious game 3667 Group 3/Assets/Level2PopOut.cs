@@ -9,6 +9,7 @@ public class Level2PopOut : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI; 
+    
 
     bool isCollide = false; 
 
