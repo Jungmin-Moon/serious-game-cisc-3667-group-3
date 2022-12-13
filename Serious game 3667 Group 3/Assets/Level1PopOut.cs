@@ -9,8 +9,8 @@ public static bool GameIsPaused = false;
     public GameObject pauseMenuUI; 
     
 
-    bool isMask = false; 
-
+    //public static bool isMask = false; 
+    [SerializeField] PresistentData Mask;
 
     public void Pause(){
         pauseMenuUI.SetActive(true); 
@@ -25,13 +25,12 @@ public static bool GameIsPaused = false;
     }
 
     public void YesButton(){
-        isMask = true;
+        Mask.setMask(); 
         Resume();
 
     } 
 
     public void NoButton(){
-    isMask = true;
     Resume();
 
     } 

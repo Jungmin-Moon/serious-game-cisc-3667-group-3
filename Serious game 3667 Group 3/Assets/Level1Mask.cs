@@ -7,7 +7,7 @@ public class Level1Mask : MonoBehaviour
 {
     [SerializeField] Level1PopOut PopOutWindow;
 
-    public bool isMask = false; 
+    
     // Start is called before the first frame update
     void Start()
     {
