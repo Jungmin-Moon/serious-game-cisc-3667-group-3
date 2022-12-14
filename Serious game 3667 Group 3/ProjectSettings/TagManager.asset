@@ -10,6 +10,9 @@ TagManager:
   - Toilet_Paper
   - Water_Bottle
   - Door
+  - TP_Choice
+  - TP_Yes
+  - TP_No
   layers:
   - Default
   - TransparentFX
