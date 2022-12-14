@@ -20,6 +20,7 @@ public class GoToNextLevel : MonoBehaviour
     } */
     public void GoLevelFour()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(4);
     }
 
