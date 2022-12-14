@@ -20,6 +20,7 @@ public class TP_Choice_Settings : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        Time.timeScale = 0;
         Situation_Information.SetActive(true);
     }
 }
