@@ -20,6 +20,7 @@ public class Water_Bottle_Information : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        Time.timeScale = 0;
         Destroy(gameObject);
         Water_Bottle_Panel.SetActive(true);
     }

@@ -22,6 +22,7 @@ public class Mask_Information : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+        Time.timeScale = 0;
         Destroy(gameObject);
         Mask_Panel.SetActive(true);
     }

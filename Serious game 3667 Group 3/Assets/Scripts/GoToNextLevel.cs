@@ -22,4 +22,9 @@ public class GoToNextLevel : MonoBehaviour
     {
         SceneManager.LoadScene(4);
     }
+
+    public void MakeTimeMoveAgain()
+    {
+        Time.timeScale = 1;
+    }
 }
