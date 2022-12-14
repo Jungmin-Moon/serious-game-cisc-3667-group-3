@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement; 
+
 
 
 public class Level2PopOut : MonoBehaviour
@@ -9,6 +9,8 @@ public class Level2PopOut : MonoBehaviour
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI; 
+    public GameObject person1;
+    [SerializeField] PresistentData Score;
     
 
     bool isCollide = false; 
@@ -27,14 +29,17 @@ public class Level2PopOut : MonoBehaviour
 
     public void YesButton(){
         Resume();
-        SceneManager.LoadScene("Grocery_Store");
+        Score.AddScoreHP(30); 
+        person1.GetComponent<Collider2D>().enabled = false; 
+        //SceneManager.LoadScene("Grocery_Store");
         //Debug.Log("YES BUTTON PRESSED");
 
     } 
 
     public void NoButton(){
         Resume();
-        SceneManager.LoadScene("Grocery_Store");
+        Destroy(person1); 
+        //SceneManager.LoadScene("Grocery_Store");
         //Debug.Log("No BUTTON PRESSED");
 
     } 

@@ -26,4 +26,9 @@ public class SettingScript : MonoBehaviour
     {
         optionsScreen.SetActive(false);
     }
+
+    public void MakeTimeMoveAgain()
+    {
+        Time.timeScale = 1;
+    }
 }

@@ -1,13 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Person1Script : MonoBehaviour
+using UnityEngine.SceneManagement; 
+public class supermarket : MonoBehaviour
 {
     // Start is called before the first frame update
-    //[SerializeField] HPScoreScript Score;
-    [SerializeField] Level2PopOut PopOutWindow;
-    public GameObject person1; 
     void Start()
     {
         
@@ -18,13 +15,11 @@ public class Person1Script : MonoBehaviour
     {
         
     }
-    private void OnTriggerEnter2D(Collider2D collison){
+        private void OnTriggerEnter2D(Collider2D collison){
          
         if(collison.gameObject.tag == "Player"){
-           
-            //Score.AddScore(20);
-            PopOutWindow.Pause(); 
-            
+
+           SceneManager.LoadScene("Grocery_Store"); 
              
         }
     }
