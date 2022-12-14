@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement; 
 public class PresistentData : MonoBehaviour
 {
 
@@ -33,6 +34,13 @@ public class PresistentData : MonoBehaviour
         HPScore -= i;
 
         scoreTextHP.text = HPScore.ToString();  
+
+        if(HPScore <= 0){
+
+            HPScore = 100;
+            SceneManager.LoadScene("Level1");
+             
+        }
 
     }
 

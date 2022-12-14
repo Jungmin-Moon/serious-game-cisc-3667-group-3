@@ -52,7 +52,7 @@ public class virusScript : MonoBehaviour
 
          
          
-        if(collison.gameObject.tag == "Variant"){
+        if(collison.gameObject.tag == "Player"){
             
             bool mask = Score.GetMask(); 
 
