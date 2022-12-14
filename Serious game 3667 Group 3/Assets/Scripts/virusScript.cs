@@ -6,9 +6,11 @@ public class virusScript : MonoBehaviour
 {
     
     [SerializeField] Vector3 force;
-    [SerializeField] Level1PopOut isMask; 
-    [SerializeField] HPScoreScript Score;
+ 
+    [SerializeField] PresistentData Score;
+    [SerializeField] MaskRender maskUI;
     [SerializeField] AudioSource audioPlayer;
+    
 
     private Rigidbody2D rb; 
     private SpriteRenderer spriteRenderer; 
@@ -47,12 +49,26 @@ public class virusScript : MonoBehaviour
 
   
     private void OnTriggerEnter2D(Collider2D collison){
+
+         
          
         if(collison.gameObject.tag == "Variant"){
             
-            Score.AddScore(10);
+            bool mask = Score.GetMask(); 
+
+            if(mask){
+                maskUI.ShowMask(); 
+            }else{    
+
+            Debug.Log("Mask is" + mask.ToString()); 
+
+            
+            Score.AddScoreHP(10);
             GameObject.Find("VirusSound").GetComponent<virusSound>().playAudio(); 
             Destroy(this.gameObject); 
+            }
+            
+
             
         }
     }

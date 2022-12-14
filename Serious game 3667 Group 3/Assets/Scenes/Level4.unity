@@ -443,30 +443,29 @@ MonoBehaviour:
 
     If you:
 
-    
+
 
     Have
     been boosted
 
     OR
 
-    Completed the primary series of Pfizer or Moderna
-    vaccine within the last 6 months
+    Completed the primary series of Pfizer or Moderna vaccine
+    within the last 6 months
 
     OR
 
-    Completed the primary series
-    of J&J vaccine within the last 2 months
+    Completed the primary series of J&J vaccine
+    within the last 2 months
 
-    
 
-    Wear a mask around others
-    for 10 days.
 
-    Test on day 5, if possible.
+    Wear a mask around others for 10 days.
 
-    If you develop symptoms
-    get a test and stay home.'
+    Test
+    on day 5, if possible.
+
+    If you develop symptoms get a test and stay home.'
 --- !u!222 &514909865
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1611,12 +1610,12 @@ MonoBehaviour:
     Everyone, regardless
     of vaccination status.
 
-    
+
 
     Stay home for 5 days.
 
-    If you have no
-    symptoms or your symptoms are resolving after 5 days, you can leave your house.
+    If you have no symptoms
+    or your symptoms are resolving after 5 days, you can leave your house.
 
     Continue
     to wear a mask around others for 5 additional days.
