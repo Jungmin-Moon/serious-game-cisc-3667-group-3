@@ -51,6 +51,9 @@ public class PlayerMovement : MonoBehaviour
         {
             SceneManager.LoadScene(2);
             Debug.Log("Next Level");
+        }else if(other.gameObject.tag == "Door2"){
+           
+            SceneManager.LoadScene(0);
         }
     }
 

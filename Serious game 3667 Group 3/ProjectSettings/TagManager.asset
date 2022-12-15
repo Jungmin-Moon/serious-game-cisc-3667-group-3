@@ -13,6 +13,7 @@ TagManager:
   - TP_Choice
   - TP_Yes
   - TP_No
+  - Door2
   layers:
   - Default
   - TransparentFX
