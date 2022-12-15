@@ -7558,8 +7558,8 @@ MonoBehaviour:
   m_Text: 'Water Bottles: This item alongside toilet paper is an oddity and is more
     just people panicking a lot. In a lot of natural disaster situations having bottled
     clean water on hand is very good but people took that to also mean that in a
-    case like a pandemic there might not be a gurantee of clean tap water. Even though
-    a pandemic would not actually affect tap at all. But the fear of the unknown
+    case like a pandemic there might not be a guarantee of clean tap water. Even
+    though a pandemic would not actually affect tap at all. But the fear of the unknown
     and knowledge of what supplies to hoard or keep on hand from other types of disasters
     as well influence from social media or even friends and family make people much
     more fearful and much more likely to hoard things they really don''t need to
@@ -8076,8 +8076,8 @@ MonoBehaviour:
     by the CDC but it was a psychological effect of thousands of years of evolution
     on humans. Everybody eats, sleeps, poops and knowing it is there is  comforting
     to know. Alongside that as humans we like community and being seen as unclean
-    could be a huge detrimentl. And above all else there are no substitutes for toilet
-    paper compared to other items. '
+    could be a huge detrimental. And above all else there are no substitutes for
+    toilet paper compared to other items. '
 --- !u!222 &386223279
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9408,6 +9408,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 41300959, guid: 6ff347c481e172d4fbbfaf872d262d32, type: 3}
+      propertyPath: jumpForce
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6670660127283515482, guid: 6ff347c481e172d4fbbfaf872d262d32, type: 3}
       propertyPath: m_RootOrder
       value: 1
