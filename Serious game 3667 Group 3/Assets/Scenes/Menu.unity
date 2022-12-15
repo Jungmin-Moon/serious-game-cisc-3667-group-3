@@ -637,7 +637,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: Quit
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5260672540970139180, guid: 05c41112fe0777e45928a0ca0c8abfc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1081251433}
+    - target: {fileID: 5260672540970139180, guid: 05c41112fe0777e45928a0ca0c8abfc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: QuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 5260672540970139180, guid: 05c41112fe0777e45928a0ca0c8abfc6, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SettingScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 2928929651337033803, guid: 05c41112fe0777e45928a0ca0c8abfc6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 05c41112fe0777e45928a0ca0c8abfc6, type: 3}
 --- !u!1 &332946526
 GameObject:
@@ -1010,7 +1023,7 @@ PrefabInstance:
       objectReference: {fileID: 1081251433}
     - target: {fileID: 6551813922600464331, guid: 970146911828a52428a4ed1c18357ed8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
+      value: CloseSettings
       objectReference: {fileID: 0}
     - target: {fileID: 6551813922600464331, guid: 970146911828a52428a4ed1c18357ed8, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
