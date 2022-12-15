@@ -46,6 +46,7 @@ public class Grocery_Store_Choice : MonoBehaviour
 
     public void GoNextLevel()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(5);
     }
 }
