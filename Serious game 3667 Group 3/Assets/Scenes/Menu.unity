@@ -163,8 +163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 8.6848, y: 55.92498}
-  m_SizeDelta: {x: 795.1202, y: 207.346}
+  m_AnchoredPosition: {x: 8.6848, y: 28.649101}
+  m_SizeDelta: {x: 795.1202, y: 261.8977}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &82298459
 MonoBehaviour:
@@ -186,9 +186,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'How to Play:
+  m_text: 'IMPORTANT:
 
-    WASD to Move, SPACE to Jump
+    Toggle fullscreen in Settings in order to see everything
+    properly.
+
+    Make sure to click Apply Graphics twice to apply the resolution.
+
+
+    How
+    to Play:
+
+    WASD to Move, SPACE to Jump, P to Pause Game.
 
 
     Objective:
@@ -221,8 +230,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 35
-  m_fontSizeBase: 35
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
