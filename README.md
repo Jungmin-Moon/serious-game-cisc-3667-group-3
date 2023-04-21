@@ -8,3 +8,5 @@ This is Jungmin Moon
 This is Mary
 
 This is David
+
+Go to https://luckyseven67.itch.io/group-3-covidstory-final to play
